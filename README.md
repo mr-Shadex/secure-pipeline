@@ -53,7 +53,8 @@ Expected output:
    API_KEY  : *************
    DB_URL   : ****************
 Step 6 — Run the tests
-bashpytest tests/ -v
+touch conftest.py
+pytest tests/ -v
 ```
 Expected output:
 ```
